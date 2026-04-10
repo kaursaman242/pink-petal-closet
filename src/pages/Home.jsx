@@ -1,59 +1,113 @@
-import React from 'react'
-import homeImg from "../assets/home.jpg";
-import kurtiImg from "../assets/kurti1.jpeg"
+import React from "react";
+import shortkurti from "../assets/homeShortKurti.png";
+import kurti1 from "../assets/kurti-1.jpg";
+import longkurti from "../assets/longkurti-1.jpg";
+import longkurti2 from "../assets/longkurti-2.jpg";
+import cordset from "../assets/cord-set4.jpg";
+import cordset2 from "../assets/cord-set3"
+import gift from "../assets/hoopgift.jpg";
+import video from "../assets/vdoo.mp4";
 
 const Home = () => {
+  const products = [
+    {
+      name: "Short Kurti",
+      Image: [shortkurti, kurti1],
+    },
+    {
+      name: "Long Kurti",
+      Image: [longkurti, longkurti2],
+    },
+    {
+      name: "Co-ord Set",
+      Image: [cordset,cordset2],
+    },
+    {
+      name: "Gift",
+      Image: [gift],
+    },
+  ];
+
   return (
     <div className="bg-pink-50 min-h-screen">
+
       {/* HERO SECTION */}
-      <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-16 py-12">
-        <div className="max-w-xl">
-          <h1 className="font-heading text-4xl md:text-6xl font-bold text-pink-600 leading-tight">
+      <div className="relative w-full h-[80vh] overflow-hidden">
+
+        {/* VIDEO BACKGROUND */}
+        <video
+          src={video}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        />
+
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-black/30"></div>
+
+        {/* TEXT */}
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
+          <h1 className="font-heading text-4xl md:text-6xl font-bold text-white">
             Pink Petal Closet
           </h1>
-          <p className=" font-heading mt-4 text-lg text-pink-400">
-            A brand made with love,just for girls who adore soft aesthetics, comfy fits and a little extra charm in every outfit. Each piece is thouughtfully handmade with love designed to make you feel confident, beautiful and uniquely you.
+
+          <p className="mt-4 text-lg text-pink-100 max-w-xl">
+            A brand made with love, just for girls who adore soft aesthetics,
+            comfy fits and a little extra charm in every outfit.
           </p>
-          <button className=" font-heading mt-6 bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition">
+
+          <button className="mt-6 bg-pink-600 text-white px-6 py-3 rounded-full hover:bg-pink-700 transition">
             Shop Now
           </button>
         </div>
-
-        <img
-          src={homeImg}
-          alt="kurti"
-          className="w-full md:w-96 mt-8 md:mt-0 rounded-2xl shadow-lg mr-12 h-[500px]"
-        />
       </div>
 
       {/* FEATURED SECTION */}
-      <div className="px-6 md:px-16 py-10">
-        <h2 className="text-2xl md:text-3xl font-semibold text-pink-600 text-center font-heading">
-          Featured Collection 
+      <div className="px-6 md:px-16 py-12">
+        <h2 className="text-2xl md:text-3xl font-semibold text-pink-600 text-center">
+          Featured Collection
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 ">
-          {[1, 2, 3].map((item) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+
+          {products.map((item) => (
             <div
-              key={item}
-              className="bg-white rounded-xl shadow hover:shadow-lg transition p-4"
+              key={item.name}
+              className="bg-white rounded-xl shadow hover:shadow-xl transition duration-300"
             >
-              <img
-                src={kurtiImg}
-                alt="kurti"
-                className="rounded-lg  w-full h-96 object-contain"
-              />
-              <h3 className="mt-3 text-lg font-medium font-heading">Handmade Kurti</h3>
-              <p className="text-pink-500 font-heading">₹999</p>
-              <button className="mt-3 w-full bg-pink-500 text-white py-2 rounded hover:bg-pink-600 font-heading">
-                Add to Cart
-              </button>
+              {/* IMAGE BOX */}
+              <div className="relative h-80 overflow-hidden rounded-t-xl group">
+
+                {item.Image.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt={item.name}
+                    className={`absolute top-0 left-0 w-full h-full object-cover transition-all duration-500 
+                    ${
+                      index === 0
+                        ? "opacity-100 group-hover:opacity-0"
+                        : "opacity-0 group-hover:opacity-100"
+                    }`}
+                  />
+                ))}
+              </div>
+
+              {/* TEXT */}
+              <div className="p-4 text-center">
+                <h3 className="text-lg font-semibold text-pink-600">
+                  {item.name}
+                </h3>
+              </div>
             </div>
           ))}
+
         </div>
       </div>
-      </div>
- );
+    </div>
+  );
 };
 
-      export default Home;
+export default Home;

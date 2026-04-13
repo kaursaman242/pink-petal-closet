@@ -1,12 +1,13 @@
 import React from "react";
-import shortkurti from "../assets/homeShortKurti.png";
-import kurti1 from "../assets/kurti-1.jpg";
-import longkurti from "../assets/longkurti-1.jpg";
-import longkurti2 from "../assets/longkurti-2.jpg";
-import cordset from "../assets/cord-set4.jpg";
-import cordset2 from "../assets/cord-set3"
+import shortkurti from "homeShortKurti.webp";
+import kurti1 from "kurti-1.webp";
+import longkurti from "longkurti-1.webp";
+import longkurti2 from "longkurti-2.webp";
+import cordset from "cord-set4.webp";
+import cordset2 from "cord-set3.webp"
 import gift from "../assets/hoopgift.jpg";
-import video from "../assets/vdoo.mp4";
+import gift2 from "../assets/hoopgift-2.jpg"
+import video from "suitvideo.mp4";
 
 const Home = () => {
   const products = [
@@ -23,13 +24,13 @@ const Home = () => {
       Image: [cordset,cordset2],
     },
     {
-      name: "Gift",
-      Image: [gift],
+      name: "Gifts",
+      Image: [gift,gift2],
     },
   ];
 
   return (
-    <div className="bg-pink-50 min-h-screen">
+    <div className="bg-pink-100 min-h-screen">
 
       {/* HERO SECTION */}
       <div className="relative w-full h-[80vh] overflow-hidden">
@@ -41,7 +42,7 @@ const Home = () => {
           loop
           muted
           playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover"
+          className="absolute top-0 left-0 w-full h-screen object-cover"
         />
 
         {/* OVERLAY */}
@@ -104,6 +105,12 @@ const Home = () => {
             </div>
           ))}
 
+        </div>
+      </div>
+{/* short kurti */}
+      <div>
+        <div>
+          <img src="" alt="" />
         </div>
       </div>
     </div>

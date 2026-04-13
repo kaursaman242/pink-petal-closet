@@ -16,7 +16,7 @@ const Navbar = () => {
         { name: "Contact", path: "/contact" },
     ];
     return (
-        <nav className="bg-pink-50 shadow font-heading px-4 sticky top-0 z-10">
+        <nav className="bg-pink-100 shadow font-heading px-4 sticky top-0 z-10">
             <div className="flex  items-center ">
 
                 {/* Mobile Menu Button */}

@@ -1,9 +1,9 @@
 import React from "react";
-import kurti from "../assets/kurti-1.jpg"
-import kurti1 from "../assets/kurti-3.jpg"
-import kurti2 from "../assets/kurti-4.png"
-import kurti3 from "../assets/kurti-5.jpg"
-import kurti4 from "../assets/kurti-6.jpg"
+import kurti from "/kurti-1.webp"
+import kurti1 from "/kurti-3.webp"
+import kurti2 from "/kurti-4.webp"
+import kurti3 from "/kurti-5.webp"
+import kurti4 from "/kurti-6.webp"
 
 const ShortKurtis = () => {
   const products = [

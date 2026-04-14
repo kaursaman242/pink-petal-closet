@@ -1,13 +1,13 @@
 import React from "react";
-import shortkurti from "homeShortKurti.webp";
-import kurti1 from "kurti-1.webp";
-import longkurti from "longkurti-1.webp";
-import longkurti2 from "longkurti-2.webp";
-import cordset from "cord-set4.webp";
-import cordset2 from "cord-set3.webp"
-import gift from "../assets/hoopgift.jpg";
-import gift2 from "../assets/hoopgift-2.jpg"
-import video from "suitvideo.mp4";
+import shortkurti from "/homeShortKurti .webp";
+import kurti1 from "/kurti-1.webp";
+import longkurti from "/longKurti-1.webp";
+import longkurti2 from "/longKurti-2.webp";
+import cordset from "/cord-set4.webp";
+import cordset2 from "/cord-set3.webp"
+import gift from "/hoopgift.webp";
+import gift2 from "/hoopgift-2.webp"
+import video from "/suitvideo.mp4";
 
 const Home = () => {
   const products = [

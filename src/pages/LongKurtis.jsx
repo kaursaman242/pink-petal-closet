@@ -1,10 +1,10 @@
 import React from "react";
-import longkurti1 from "../assets/longKurti-1.jpg"
-import longkurti2 from "../assets/longKurti-2.jpg"
-import longKurti3 from "../assets/longKurti-3.jpg"
-import longkurti4 from "../assets/longKurti-4.jpg"
-import longkurti5 from "../assets/longKurti-5.jpg"
-import longkurti6 from "../assets/longKurti-6.jpg"
+import longkurti1 from "/longKurti-1.webp"
+import longkurti2 from "/longKurti-2.webp"
+import longKurti3 from "/longKurti-3.webp"
+import longkurti4 from "/longKurti-4.webp"
+import longkurti5 from "/longKurti-5.webp"
+import longkurti6 from "/longKurti-6.webp"
 
 const LongKurtis = () => {
   const products =[

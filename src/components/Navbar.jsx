@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { ShoppingCart, Heart, Search } from "lucide-react"
+import { ShoppingCart, Heart} from "lucide-react"
 import logo from "../assets/logoo1.png"
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
         { name: "Contact", path: "/contact" },
     ];
     return (
-        <nav className="bg-pink-100 shadow font-heading px-4 sticky top-0 z-10">
+        <nav className="bg-pink-100 shadow font-heading px-4 sticky top-0 z-50">
             <div className="flex  items-center ">
 
                 {/* Mobile Menu Button */}

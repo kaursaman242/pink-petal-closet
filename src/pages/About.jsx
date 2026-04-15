@@ -1,5 +1,4 @@
 import React from "react";
-import aboutImg from "/kurti-1.webp";
 import aboutImg2 from "/kurti-1.webp";
 
 const About = () => {

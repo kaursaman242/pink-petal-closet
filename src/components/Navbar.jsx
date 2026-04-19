@@ -29,26 +29,29 @@ const Navbar = () => {
 
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex gap-6 items-center text-black text-xl">
-                    <Link to="/" className=" w-60 h-26"><img src={logo} alt="Home" /></Link>
+                <div className="hidden md:flex justify-between items-center w-full text-black text-sm">
+                    <div className="flex items-center gap-5">
+                          <Link to="/" className=" h-16 "><img src={logo} alt="Home" className='w-44 h-16 '  /></Link>
                     {navItems.map((item) => (
                         <Link
                             key={item.name}
                             to={item.path}
-                            className="relative group hover:text-pink-600"
+                            className=" relative group hover:text-pink-600 "
                         >
                             {item.name}
                             <span className="absolute left-0 -bottom-1 h-[2px] w-full bg-pink-600 scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100"></span>
                         </Link>
                     ))}
+                    </div>
+                  
 
-                    <div className='flex gap-6 pl-64 '>
+                    <div className='flex gap-6  '>
                         <input type="text"
                             placeholder='Search'
-                            className='w-full h-12 p-2 border border-black rounded-md text-sm focus:outline-pink-400'
+                            className='w-full h-8 p-1 border border-black rounded-md text-sm focus:outline-pink-400'
                         />
-                        <Link to="/wishlist" className="text-black text-center pt-2"><Heart /></Link>
-                        <Link to="/cart" className="text-black text-center pt-2"><ShoppingCart /></Link>
+                        <Link to="/wishlist" className="text-black text-center pt-1"><Heart className='size-5 hover:text-pink-600' /></Link>
+                        <Link to="/cart" className="text-black text-center pt-1"><ShoppingCart className='size-5 hover:text-pink-600' /></Link>
 
                     </div>
 

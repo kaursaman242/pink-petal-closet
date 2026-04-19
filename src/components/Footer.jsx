@@ -3,8 +3,8 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-pink-500 via-pink-400 to-pink-600 text-white px-10 py-16 ">
-      <div className=" grid grid-cols-1 md:grid-cols-5 gap-10 ">
+    <footer className="bg-gradient-to-r from-pink-500 via-pink-400 to-pink-600 text-white px-10 py-16 mt-0 font-heading">
+      <div className=" grid grid-cols-1 md:grid-cols-5 gap-6 ">
 
 
         {/* Social + Newsletter */}
@@ -28,7 +28,7 @@ const Footer = () => {
         {/* Quick Links */}
         <div>
           <h3 className="font-semibold text-2xl mb-3 whitespace-nowrap text-center">Quick Links</h3>
-          <div className="items-start pl-8 text-left ml-20 mr-6">
+          <div className="items-start pl-8 text-left ml-11 mr-6">
             <ul className="space-y-3 text-lg ">
               <li><Link to="/" className="hover:text-pink-200">Home</Link></li>
               <li><Link to="/about" className="hover:text-pink-200">About</Link></li>
@@ -41,7 +41,7 @@ const Footer = () => {
         {/* Our Collection */}
         <div>
           <h3 className="font-semibold text-2xl mb-3 whitespace-nowrap text-center">Our Collection</h3>
-          <div className="items-start pl-6 text-left ml-16 mr-4">
+          <div className="items-start pl-6 text-left ml-8 mr-4">
             <ul className="space-y-3 text-lg ">
               <li><Link to="/short-kurtis" className="hover:text-pink-200">Short Kurtis</Link></li>
               <li><Link to="/long-kurtis" className="hover:text-pink-200">Long Kurtis</Link></li>
@@ -55,7 +55,7 @@ const Footer = () => {
         {/* Customer Support */}
         <div>
           <h3 className="font-semibold text-2xl mb-3 text-center">Support</h3>
-          <div className="items-start pl-11 text-left ml-16 mr-2">
+          <div className="items-start pl-11 text-left ml-8 mr-2">
             <ul className="space-y-3 text-lg ">
               <li><Link to="/faqs" className="hover:text-pink-200">FAQs</Link></li>
               <li><Link to="/shipping" className="hover:text-pink-200">Shipping</Link></li>

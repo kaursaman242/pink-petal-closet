@@ -15,6 +15,7 @@ import FAQs from "./pages/FAQs";
 import Shipping from "./pages/Shipping";
 import Returns from "./pages/Returns";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ProductDetail from "./pages/ProductDetail";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/shipping" element={<Shipping/>} />
         <Route path="/returns" element={<Returns/>} />
         <Route path="/privacy" element={<PrivacyPolicy/>} />
+             <Route path="/product/:id" element={<ProductDetail />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -73,7 +73,7 @@ const Home = () => {
   }, [trendingProducts.length]);
 
   return (
-    <div className="bg-pink-100 min-h-screen">
+    <div className="bg-pink-100 min-h-screen font-heading m-0 p-0 ">
 
       {/* HERO SECTION */}
       <div className="relative w-full h-[90vh] overflow-hidden aspect-[3af'w[]0/4]">
@@ -110,7 +110,7 @@ const Home = () => {
           Featured Collection
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10 ">
 
           {products.map((item) => (
             <Link to={item.link} key={item.name}>
@@ -148,9 +148,9 @@ const Home = () => {
 
 
       {/* TRENDING CAROUSEL */}
-      <div className=" bg-pink-100 pb-14 ">
+      <div className=" bg-pink-100  ">
 
-        <h2 className="text-2xl md:text-3xl font-semibold text-center text-pink-600 mb-20">
+        <h2 className="text-2xl md:text-3xl font-semibold text-center text-pink-600 mb-10">
           Trending Collection
         </h2>
 
@@ -207,7 +207,7 @@ const Home = () => {
       </div>
 
       {/* Short kurti */}
-      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-xl ">
+      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-lg border border-pink-200 rounded-2xl ">
         <div className="w-[30%]">
           <img src={kurti1}
             alt="kurti"
@@ -228,7 +228,7 @@ const Home = () => {
 
 
       {/* long kurti */}
-      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] border shadow-xl mb-0   ">
+      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-lg border border-pink-200 rounded-2xl mb-0   ">
 
         <div className="text-2xl  justify-items-center content-center w-[70%]">
           <h1 className="m-8 pb-18 text-6xl font-heading font-bold">Long Kurtis</h1>
@@ -248,6 +248,26 @@ const Home = () => {
 
       </div>
 
+
+      {/* co-ord sets */}
+      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-lg border border-pink-200 rounded-2xl  ">
+        <div className="w-[30%]">
+          <img src={cordset}
+            alt="kurti"
+            className="w-96 object-cover h-96  "
+          />
+        </div>
+
+        <div className="text-2xl  justify-items-center content-center">
+          <h1 className="m-8 pb-18 text-6xl font-heading font-bold">Co-ord Sets</h1>
+          <p className="text-end">Beautiful hand embroidery and hand painted short kurtis only for you girls!</p>
+           <Link to="/coord-sets"> <button className="mt-4 mx-72 w-48 border border-pink-500 rounded-full py-3 hover:bg-pink-600 hover:text-white transition">
+            Shop now
+          </button>
+          </Link>
+        </div>
+
+      </div>
 
     </div>
   )

@@ -15,43 +15,43 @@ const Gifts = () => {
 
   const products = [
     {
-      id: 201,
+      id: 301,
       name: "Wedding Hoop",
       price: "₹1499",
       images: [gift1]
     },
     {
-      id: 202,
+      id: 302,
       name: "Anniversary Hoop",
       price: "₹1399",
       images: [gift2]
     },
     {
-      id: 203,
+      id: 303,
       name: "Birthday Hoop",
       price: "₹1699",
       images: [gift3]
     },
     {
-      id: 204,
+      id: 304,
       name: "Wedding Hoop",
       price: "₹1199",
       images: [gift4]
     },
     {
-      id: 205,
+      id: 305,
       name: "Birthday Hoop",
       price: "₹1799",
       images: [gift5]
     },
     {
-      id: 206,
+      id: 306,
       name: "Anniversary Hoop",
       price: "₹1599",
       images: [gift6]
     },
     {
-      id: 207,
+      id: 307,
       name: "Anniversary Hoop",
       price: "₹1599",
       images: [gift7]

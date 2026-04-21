@@ -14,35 +14,35 @@ const ShortKurtis = () => {
     name: "Floral Short Kurti",
     price: "₹999",
     description: "Beautiful hand-painted floral kurti",
-    Image: kurti
+    images: kurti
   },
   {
     id: 2,
     name: "Elegant Kurti",
     price: "₹899",
     description: "Comfortable daily wear kurti",
-    Image: kurti1
+    images: kurti1
   },
   {
     id: 3,
     name: "Designer Kurti",
     price: "₹1099",
     description: "Premium design for special occasions",
-    Image: kurti2
+    images: kurti2
   },
   {
     id: 4,
     name: "Casual Kurti",
     price: "₹799",
     description: "Simple and stylish look",
-    Image: kurti3
+    images: kurti3
   },
   {
     id: 5,
     name: "Party Wear Kurti",
     price: "₹1299",
     description: "Perfect for parties and functions",
-    Image: kurti4
+    images: kurti4
   }
 ];
 
@@ -60,7 +60,7 @@ const ShortKurtis = () => {
     className="bg-white cursor-pointer rounded-xl shadow hover:shadow-lg transition duration-300 overflow-hidden"
   >
     <img
-      src={item.Image}
+      src={item.images}
       alt={item.name}
       className="w-full h-80 object-cover"
     />

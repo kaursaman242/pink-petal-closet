@@ -207,19 +207,19 @@ const Home = () => {
       </div>
 
       {/* Short kurti */}
-      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-lg border border-pink-200 rounded-2xl ">
-        <div className="w-[30%]">
+      <div className="flex gap-20 px-4 m-20 py-6 h-[450px] shadow-lg border border-pink-200 rounded-2xl ">
+        <div className="w-[50%]">
           <img src={kurti1}
             alt="kurti"
-            className="w-96 object-cover h-96  "
+            className="w-full object-cover h-96  "
           />
         </div>
 
-        <div className="text-2xl  justify-items-center content-center">
-          <h1 className="m-8 pb-18 text-6xl font-heading font-bold">Short Kurtis</h1>
-          <p className="text-end">Beautiful hand embroidery and hand painted short kurtis only for you girls!</p>
-           <Link to="/short-kurtis"> <button className="mt-4 mx-72 w-48 border border-pink-500 rounded-full py-3 hover:bg-pink-600 hover:text-white transition">
-            Shop now
+        <div className=" justify-items-center content-center ">
+          <h1 className="m-8 pb-18 text-4xl font-heading font-bold">Short Kurtis</h1>
+          <p className="text-center text-gray-600 text-xl px-8">Trendy short kurties with unique designs for daily wear. We have hand painted short kurtis as well as hand embroidered short kurties. Each design has its own personality. View out all products.</p>
+           <Link to="/short-kurtis"> <button className="mt-8 mx-72 w-36 border border-pink-500 rounded-full py-2 hover:bg-pink-600 hover:text-white transition">
+            View More
           </button>
           </Link>
         </div>
@@ -230,11 +230,11 @@ const Home = () => {
       {/* long kurti */}
       <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-lg border border-pink-200 rounded-2xl mb-0   ">
 
-        <div className="text-2xl  justify-items-center content-center w-[70%]">
-          <h1 className="m-8 pb-18 text-6xl font-heading font-bold">Long Kurtis</h1>
-          <p className="text-end">Beautiful hand embroidery and hand painted Long kurtis only for you girls!</p>
-          <Link to="/long-kurtis" ><button className="mt-4 mx-72 w-48 border border-pink-500 rounded-full py-3 hover:bg-pink-600 hover:text-white transition">
-            Shop now
+        <div className="  justify-items-center  w-[70%] content-center ">
+          <h1 className="m-8 pb-18 text-4xl font-heading font-bold ">Long Kurtis</h1>
+          <p className="text-center text-gray-600 text-xl px-8">We provided hand painted and hand embroidery designed kurties which makes you unique, comfortable and confidence. Every design is done with love and just for you. View our all products.</p>
+          <Link to="/long-kurtis" ><button className="mt-8 mx-72 w-36 border border-pink-500 rounded-full py-2 hover:bg-pink-600 hover:text-white transition">
+            View More
           </button>
           </Link>
         </div>
@@ -258,11 +258,11 @@ const Home = () => {
           />
         </div>
 
-        <div className="text-2xl  justify-items-center content-center">
-          <h1 className="m-8 pb-18 text-6xl font-heading font-bold">Co-ord Sets</h1>
-          <p className="text-end">Beautiful hand embroidery and hand painted short kurtis only for you girls!</p>
-           <Link to="/coord-sets"> <button className="mt-4 mx-72 w-48 border border-pink-500 rounded-full py-3 hover:bg-pink-600 hover:text-white transition">
-            Shop now
+        <div className="justify-items-center content-center">
+          <h1 className="m-8 pb-18 text-4xl font-heading font-bold">Co-ord Sets</h1>
+          <p className="text-center text-gray-600 text-xl px-8">Trendy, Unique and Beautiful Co-ord sets made with hand painted and hand embroidery design.View our all products. </p>
+           <Link to="/coord-sets"> <button className="mt-8 mx-72 w-36 border border-pink-500 rounded-full py-2 hover:bg-pink-600 hover:text-white transition">
+            View More
           </button>
           </Link>
         </div>

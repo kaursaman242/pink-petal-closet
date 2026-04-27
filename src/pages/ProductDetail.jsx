@@ -40,12 +40,12 @@ const products = [
         id: 1,
         name: "Floral Short Kurti",
         price: "₹999",
-        description: "Beautiful hand-painted floral kurti",
+        description: "Beautiful cotton hand painted kurti for daily wear with full sleeves and square neck",
         images: [kurti],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
@@ -57,7 +57,7 @@ const products = [
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
@@ -69,7 +69,7 @@ const products = [
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
@@ -81,7 +81,7 @@ const products = [
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
@@ -93,7 +93,7 @@ const products = [
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
 
@@ -102,66 +102,72 @@ const products = [
         id: 101,
         name: "Elegant Long Kurti",
         price: "₹1299",
+        description: "Prettiest long kurti with hand embroidery",
         images: [longkurti1, longkurti2, longkurti3],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 102,
         name: "Designer Long Kurti",
         price: "₹1499",
+        description: "Prettiest long kurti with hand embroidery",
         images: [longkurti2, longkurti3, longkurti4],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 103,
         name: "Floral Long Kurti",
         price: "₹1199",
+        description: "Prettiest long kurti with hand embroidery",
         images: [longkurti3, longkurti4, longkurti5],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 104,
         name: "Casual Long Kurti",
         price: "₹999",
+        description: "Prettiest long kurti with hand embroidery",
         images: [longkurti4, longkurti5, longkurti6],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 105,
         name: "Party Wear Long Kurti",
         price: "₹1599",
+        description: "Prettiest long kurti with hand embroidery",
         images: [longkurti5, longkurti6, longkurti1],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 106,
         name: "Classic Long Kurti",
         price: "₹1399",
+        description: "Prettiest long kurti with hand embroidery",
         images: [longkurti6, longkurti1, longkurti2],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
 
@@ -170,66 +176,72 @@ const products = [
         id: 201,
         name: "Floral Co-ord Set",
         price: "₹1499",
+        description: "Prettiest long kurti with hand embroidery",
         images: [cordSet1, cordSet2, cordSet3],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 202,
         name: "Elegant Co-ord Set",
         price: "₹1399",
+        description: "Prettiest long kurti with hand embroidery",
         images: [cordSet2, cordSet3, cordSet4],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 203,
         name: "Designer Co-ord Set",
         price: "₹1699",
+        description: "Prettiest long kurti with hand embroidery",
         images: [cordSet3, cordSet4, cordSet5],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 204,
         name: "Casual Co-ord Set",
         price: "₹1199",
+        description: "Prettiest long kurti with hand embroidery",
         images: [cordSet4, cordSet5, cordSet6],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 205,
         name: "Party Wear Co-ord Set",
         price: "₹1799",
+        description: "Prettiest long kurti with hand embroidery",
         images: [cordSet5, cordSet6, cordSet1],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 206,
         name: "Classic Co-ord Set",
         price: "₹1599",
+        description: "Prettiest long kurti with hand embroidery",
         images: [cordSet6, cordSet1, cordSet2],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
 
@@ -238,77 +250,84 @@ const products = [
         id: 301,
         name: "Wedding Hoop",
         price: "₹1499",
+        description: "Prettiest long kurti with hand embroidery",
         images: [gift1],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 302,
         name: "Anniversary Hoop",
         price: "₹1399",
+        description: "Prettiest long kurti with hand embroidery",
         images: [gift2],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 303,
         name: "Birthday Hoop",
         price: "₹1699",
+        description: "Prettiest long kurti with hand embroidery",
         images: [gift3],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 304,
         name: "Wedding Hoop",
         price: "₹1199",
+        description: "Prettiest long kurti with hand embroidery",
         images: [gift4],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 305,
         name: "Birthday Hoop",
         price: "₹1799",
+        description: "Prettiest long kurti with hand embroidery",
         images: [gift5],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 306,
         name: "Anniversary Hoop",
         price: "₹1599",
+        description: "Prettiest long kurti with hand embroidery",
         images: [gift6],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 307,
         name: "Anniversary Hoop",
         price: "₹1599",
+        description: "Prettiest long kurti with hand embroidery",
         images: [gift7],
         about: "Beautiful hand embroidered short kurti",
         fabric: "Cotton",
         color: "Black",
-        sleeves:"Full Sleeves",
+        sleeves: "Full Sleeves",
         fit: "Regular"
     }
 ];
@@ -347,7 +366,7 @@ const ProductDetail = () => {
     const relatedProducts = products.filter((item) => item.id !== product.id);
 
     return (
-        <div className="p-6 md:p-10 bg-pink-50 min-h-screen">
+        <div className="p-6 md:p-10 bg-pink-50 min-h-screen font-heading">
 
             {/* MAIN SECTION */}
             <div className="max-w-6xl mx-auto bg-white p-6 rounded-2xl shadow-lg grid md:grid-cols-2 gap-10">
@@ -405,16 +424,20 @@ const ProductDetail = () => {
 
                     </div>
 
-                    {/* DESCRIPTION (PRO STYLE) */}
+                    {/* description */}
+
                     <p className="text-gray-600 text-sm leading-relaxed mb-6">
-                        Prettiest design kurti perfect for every occasion. A stylish blend of tradition and modern fashion.
+                        {product.description}
                         <br /><br />
-                        <span className="font-semibold">Fabric:</span> Cotton
-                        <span className="font-semibold"> | Color:</span> Printed
-                        <span className="font-semibold"> | Sleeves:</span> Full Sleeves
-                        <span className="font-semibold"> | Fit:</span> Regular
+
+
+                        <span className="font-semibold">Fabric:</span> {product.fabric}
+                        <span className="font-semibold"> | Color:</span> {product.color}
+                        <span className="font-semibold"> | Sleeves:</span> {product.sleeves}
+                        <span className="font-semibold"> | Fit:</span> {product.fit}
                         <span className="font-semibold"> | Occasion:</span> Casual, College, Outings
                     </p>
+
 
                     {/* SIZE */}
                     <div className="mb-6">
@@ -487,35 +510,36 @@ const ProductDetail = () => {
                     </button>
 
                 </div>
-
-                {/* RELATED PRODUCTS */}
-                <div className="mt-16 max-w-6xl mx-auto">
-                    <h2 className="text-2xl font-bold mb-6 text-center">
-                        Related Products
-                    </h2>
-
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                        {relatedProducts.map((item) => (
-                            <div
-                                key={item.id}
-                                onClick={() => navigate(`/product/${item.id}`)}
-                                className="cursor-pointer bg-white rounded-xl shadow hover:shadow-lg hover:-translate-y-1 transition overflow-hidden"
-                            >
-                                <img
-                                    src={item.images[0]}
-                                    className="w-full h-52 object-cover"
-                                />
-
-                                <div className="p-3">
-                                    <h3 className="text-sm font-semibold">{item.name}</h3>
-                                    <p className="text-pink-500">{item.price}</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-
             </div>
+
+            {/* RELATED PRODUCTS */}
+            <div className="mt-16 w-full px-6">
+                <h2 className="text-2xl font-bold mb-6 text-center">
+                    Related Products
+                </h2>
+
+                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    {relatedProducts.map((item) => (
+                        <div
+                            key={item.id}
+                            onClick={() => navigate(`/product/${item.id}`)}
+                            className="cursor-pointer bg-white rounded-xl shadow hover:shadow-lg hover:-translate-y-1 transition overflow-hidden"
+                        >
+                            <img
+                                src={item.images[0]}
+                                className="w-full aspect-[3/4] object-cover"
+                            />
+
+                            <div className="p-3">
+                                <h3 className="text-sm font-semibold">{item.name}</h3>
+                                <p className="text-pink-500">{item.price}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+
         </div>
     );
 };

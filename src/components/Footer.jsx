@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-pink-500 via-pink-400 to-pink-600 text-white px-10 py-4 mt-0 font-heading ">
+    <footer className="bg-gradient-to-r from-pink-500 via-pink-400 to-pink-600 text-white px-8 py-4 mt-8 font-heading ">
       <div className=" grid grid-cols-1 md:grid-cols-5 gap-6 ">
 
 
@@ -32,7 +32,6 @@ const Footer = () => {
             <ul className="space-y-3 text-sm ">
               <li><Link to="/" className="hover:text-pink-200">Home</Link></li>
               <li><Link to="/about" className="hover:text-pink-200">About</Link></li>
-              <li><Link to="/gifts" className="hover:text-pink-200">Gifts</Link></li>
               <li><Link to="/contact" className="hover:text-pink-200">Contact</Link></li>
             </ul>
           </div>

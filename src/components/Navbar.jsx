@@ -45,13 +45,13 @@ const Navbar = () => {
                     </div>
                   
 
-                    <div className='flex gap-6  '>
+                    <div className='flex gap-4  '>
                         <input type="text"
                             placeholder='Search'
                             className='w-full h-8 p-1 border border-black rounded-md text-sm focus:outline-pink-400'
                         />
-                        <Link to="/wishlist" className="text-black text-center pt-1"><Heart className='size-5 hover:text-pink-600' /></Link>
-                        <Link to="/cart" className="text-black text-center pt-1"><ShoppingCart className='size-5 hover:text-pink-600' /></Link>
+                        <Link to="/wishlist" className="text-black text-center pt-1 "><Heart strokeWidth={1.5}  className='size-5 hover:text-pink-600 ' /></Link>
+                        <Link to="/cart" className="text-black text-center pt-1"><ShoppingCart strokeWidth={1.5} className='size-5 hover:text-pink-600' /></Link>
 
                     </div>
 

@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa"
 
 const Contact = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-white py-16 px-6">
+    <div className="min-h-screen bg-gradient-to-br from-pink-50 to-white py-16 px-6 font-heading">
 
       {/* Heading */}
       <div className="text-center mb-12">

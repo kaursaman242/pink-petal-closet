@@ -13,7 +13,7 @@ const Customization = () => {
   };
 
   return (
-    <div className="min-h-screen bg-pink-100 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-pink-100 flex items-center justify-center p-6 font-heading">
       <div className="max-w-5xl w-full bg-white rounded-2xl shadow-lg overflow-hidden grid md:grid-cols-2">
         
         {/* LEFT SIDE IMAGE */}

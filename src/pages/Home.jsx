@@ -228,7 +228,7 @@ const Home = () => {
 
 
       {/* long kurti */}
-      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-lg border border-pink-200 rounded-2xl mb-0   ">
+      <div className="flex gap-20 px-4 m-20 py-8 h-[450px] shadow-lg border border-pink-200 rounded-2xl mb-2   ">
 
         <div className="  justify-items-center  w-[70%] content-center ">
           <h1 className="m-8 pb-18 text-4xl font-heading font-bold ">Long Kurtis</h1>

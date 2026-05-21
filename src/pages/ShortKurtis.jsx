@@ -2,8 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Heart, BadgePercent, Flower } from "lucide-react"
-import kurti from "/kurti-1.webp"
-import kurti1 from "/kurti-3.webp"
+import whiteKurti3 from "/white-kurti3.webp"
+import butterYellowKurti1 from "/butter-yellow-kurti1.webp"
 import kurti2 from "/kurti-4.webp"
 import kurti3 from "/kurti-5.webp"
 import kurti4 from "/kurti-6.webp"
@@ -13,17 +13,17 @@ const ShortKurtis = () => {
   const products = [
     {
       id: 1,
-      name: "Floral Short Kurti",
-      price: 999,
+      name: "White Hand Painted Short Kurti",
+      price: 699,
       inStock: true,
-      images: kurti
+      images:whiteKurti3
     },
     {
       id: 2,
-      name: "Elegant Kurti",
+      name: "Elegant Butter Yellow Hand Painted Kurt",
       price: 899,
       inStock: false,
-      images: kurti1
+      images: butterYellowKurti1
     },
     {
       id: 3,

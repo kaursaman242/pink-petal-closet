@@ -3,8 +3,14 @@ import { useParams, useNavigate } from "react-router-dom";
 import { ChevronLeft, ChevronRight, MessageCircle } from "lucide-react";
 
 // 🔹 SHORT KURTI IMAGES
-import kurti from "/kurti-1.webp";
-import kurti1 from "/kurti-3.webp";
+import whiteKurti1 from "/white-kurti1.webp";
+import whiteKurti2 from "/white-kurti2.webp";
+import whiteKurti3 from "/white-kurti3.webp";
+import whiteKurti4 from "/white-kurti4.webp";
+import butterYellowKurti1 from "/butter-yellow-kurti1.webp";
+import butterYellowKurti2 from "/butter-yellow-kurti2.webp";
+import butterYellowKurti3 from "/butter-yellow-kurti3.webp";
+import butterYellowKurti4 from "/butter-yellow-kurti4.webp";
 import kurti2 from "/kurti-4.webp";
 import kurti3 from "/kurti-5.webp";
 import kurti4 from "/kurti-6.webp";
@@ -38,25 +44,25 @@ const products = [
     // SHORT
     {
         id: 1,
-        name: "Floral Short Kurti",
-        price: "₹999",
+        name: "White Hand Painted Short Kurti",
+        price: "₹699",
         description: "Beautiful cotton hand painted kurti for daily wear with full sleeves and square neck",
-        images: [kurti],
-        about: "Beautiful hand embroidered short kurti",
-        fabric: "Cotton",
-        color: "Black",
+        images: [whiteKurti1, whiteKurti2, whiteKurti3, whiteKurti4],
+        about: "Beautiful Hand Painted short kurti",
+        fabric: " Burberry Cotton",
+        color: "White",
         sleeves: "Full Sleeves",
         fit: "Regular"
     },
     {
         id: 2,
-        name: "Elegant Kurti",
+        name: "Elegant Butter Yellow Hand Painted Kurti",
         price: "₹899",
         description: "Comfortable daily wear kurti",
-        images: [kurti1],
-        about: "Beautiful hand embroidered short kurti",
+        images: [butterYellowKurti1, butterYellowKurti2, butterYellowKurti3, butterYellowKurti4],
+        about: "Beautiful hand painted short kurti",
         fabric: "Cotton",
-        color: "Black",
+        color: "Butter Yellow",
         sleeves: "Full Sleeves",
         fit: "Regular"
     },

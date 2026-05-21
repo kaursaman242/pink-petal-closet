@@ -75,14 +75,14 @@ const LongKurtis = () => {
 
 
       {/* TITLE */}
-      <div className="px-8 pt-6  justify-center text-center">
+      <div className="  justify-center text-center">
         <h1 className="text-3xl font-semibold text-gray-800 ">Long Kurtis</h1>
         <p className="text-gray-500 text-sm mt-1">
           Find your perfect style
         </p>
       </div>
 
-      <div className="flex gap-6 px-8 mt-6">
+      <div className="flex gap-6 mt-6">
 
         {/* SIDEBAR */}
         <div className="w-1/6 space-y-4">
@@ -155,7 +155,7 @@ const LongKurtis = () => {
 
           {/* DECOR CARD */}
           <div className="bg-white p-4 rounded-2xl shadow-sm text-center text-pink-400 text-sm">
-            Handcrafted with love, just for you 💖
+            Handcrafted with love, just for you
           </div>
 
         </div>

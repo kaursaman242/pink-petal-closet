@@ -16,7 +16,7 @@ const ShortKurtis = () => {
       name: "White Hand Painted Short Kurti",
       price: 699,
       inStock: true,
-      images:whiteKurti3
+      images: whiteKurti3
     },
     {
       id: 2,
@@ -163,69 +163,84 @@ const ShortKurtis = () => {
               >
 
                 {/* IMAGE */}
-                <div className="relative">
-                  <img
-                    src={item.images}
-                    alt={item.name}
-                    className="w-full h-64 object-cover group-hover:scale-105 transition"
-                  />
-
-                  {/* BADGES */}
-                  <span className="absolute top-1 left-2 bg-pink-500 text-white text-xs p-1 rounded-full">
-                    {index === 0 ? "NEW" : index === 1 ? "BESTSELLER" : index === 2 ? "TRENDING" : ""}
-                  </span>
-
-                  {/* HEART */}
-                  <span className="absolute top-3 right-3 text-white text-xl">
-                    <Heart />
-                  </span>
-                </div>
-
-                {/* CONTENT */}
-                <div className="p-4">
-
-                  <h3 className="text-sm font-medium text-gray-700">
-                    {item.name}
-                  </h3>
-
-                  <p className="text-pink-500 font-semibold">
-                    ₹{item.price}
-                  </p>
-
-                  {/* STOCK */}
-                  <p className={`text-xs mt-1 ${item.inStock ? "text-green-600 bg-green-100  rounded-full p-1 w-20" : "text-red-500 bg-red-100 rounded-full p-1 w-24"}`}>
-                    ● {item.inStock ? "In Stock" : "Out of Stock"}
-                  </p>
-
-                  {/* BUTTON */}
-                  <button
-                    className={`mt-3 w-full py-2 rounded-full text-sm border transition
-                  ${item.inStock
-                        ? "border-pink-400 text-pink-500 bg-pink-100 hover:bg-pink-500 hover:text-white"
-                        : "border-pink-400 text-pink-500 cursor-pointer"
-                      }`}
-                    disabled={!item.inStock}
+                <div className="relative flex justify-center pt-4">
+                  <div
+                    className="
+                    relative
+                    overflow-hidden
+                    w-[220px]
+                    h-[300px]
+                    transition-all
+                    duration-700
+                    ease-in-out
+                    rounded-[45%_55%_50%_50%/30%_30%_70%_70%]
+                    group-hover:rounded-[60%_40%_35%_65%/50%_70%_30%_50%]
+                  "
                   >
-                    {item.inStock ? "Add to Cart" : "Notify Me"}
-                  </button>
+                    <img
+                      src={item.images}
+                      alt={item.name}
+                      className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                    />
 
+                    {/* BADGES */}
+                    <span className="absolute top-1 left-2 bg-pink-500 text-white text-xs p-1 rounded-full">
+                      {index === 0 ? "NEW" : index === 1 ? "BESTSELLER" : index === 2 ? "TRENDING" : ""}
+                    </span>
+
+                    {/* HEART */}
+                    <span className="absolute top-3 right-3 text-white text-xl">
+                      <Heart />
+                    </span>
+                  </div>
+
+                  {/* CONTENT */}
+                  <div className="p-4">
+
+                    <h3 className="text-sm font-medium text-gray-700">
+                      {item.name}
+                    </h3>
+
+                    <p className="text-pink-500 font-semibold">
+                      ₹{item.price}
+                    </p>
+
+                    {/* STOCK */}
+                    <p className={`text-xs mt-1 ${item.inStock ? "text-green-600 bg-green-100  rounded-full p-1 w-20" : "text-red-500 bg-red-100 rounded-full p-1 w-24"}`}>
+                      ● {item.inStock ? "In Stock" : "Out of Stock"}
+                    </p>
+
+                    {/* BUTTON */}
+                    <button
+                      className={`mt-3 w-full py-2 rounded-full text-sm border transition
+                  ${item.inStock
+                          ? "border-pink-400 text-pink-500 bg-pink-100 hover:bg-pink-500 hover:text-white"
+                          : "border-pink-400 text-pink-500 cursor-pointer"
+                        }`}
+                      disabled={!item.inStock}
+                    >
+                      {item.inStock ? "Add to Cart" : "Notify Me"}
+                    </button>
+
+                  </div>
+                  </div>
                 </div>
-              </div>
             ))}
 
-          </div>
+          </div>  
+
+
+        {/* BOTTOM FEATURES */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm text-gray-600 px-8 py-8 mt-10">
+          <div>💖 Handcrafted <br /> Made with love & care</div>
+          <div>🌿 Unique Designs <br /> Each piece is one of a kind</div>
+          <div>🛡 Quality Assured <br /> Premium fabrics & finish</div>
+          <div>🚚 Easy Returns <br /> Hassle-free returns</div>
         </div>
       </div>
-
-      {/* BOTTOM FEATURES */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm text-gray-600 px-8 py-8 mt-10">
-        <div>💖 Handcrafted <br /> Made with love & care</div>
-        <div>🌿 Unique Designs <br /> Each piece is one of a kind</div>
-        <div>🛡 Quality Assured <br /> Premium fabrics & finish</div>
-        <div>🚚 Easy Returns <br /> Hassle-free returns</div>
-      </div>
-
     </div>
+</div>
   );
-}
+};
+
 export default ShortKurtis;
